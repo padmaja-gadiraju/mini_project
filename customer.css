@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://www.aquaculturealliance.org/wp-content/uploads/2018/10/Australia_farm_1500.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px; 
+}
+.main{
+    font-size: 30px;
+}
+h6 {
+    display: flex;
+    flex-direction: row;
+}
+  
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-radius: 50px;
+    font-size: large;
+    width: 200px;
+  height: 50px;
+  background-color: ivory;
+  border-color: lawngreen;
+    
+}
+button:hover {
+    background-color: rgb(147, 240, 71);
+    cursor: pointer;
+}
+input{
+    border-radius: 60px;
+    height: 30px;
+    width: 200px;
+}
