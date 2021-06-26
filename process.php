@@ -31,6 +31,7 @@ if (isset($_POST['user_id']) && isset($_POST['password'])) {
             if ($row['user_name'] === $user_id && $row['password'] === $password){
                 $_SESSION['user_name'] = $row['user_name'];
                 $_SESSION['name'] = $row['name'];
+                $_SESSION['id'] = $row['id'];
                 
                 header("Location: FA.php");
             }
