@@ -12,7 +12,7 @@
     <p align = 'center'>
         <br><br><br><br><br>
          <button type="submit" style="color:black;"><a href="login1.php"> login</a></button><br><br><br><br>
-        <button type="submit" style="color:black;"><a href="sign up.php">sign up</a></button>
+        <button type="submit" style="color:black;"><a href="signup1.php">sign up</a></button>
     </p> 
 
 </body>
